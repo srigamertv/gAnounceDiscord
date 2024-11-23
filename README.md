@@ -4,7 +4,7 @@
 
 **Video Preview:**
 
-| [![Assista ao vídeo](https://img.youtube.com/vi/i5v2QIJoa_g/0.jpg)](https://www.youtube.com/watch?v=i5v2QIJoa_g) |
+| [![Assista ao vídeo](https://img.youtube.com/vi/7A7QBZNG5ks/0.jpg)](https://www.youtube.com/watch?v=7A7QBZNG5ks) |
 | --- |
 
 ---
