@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <head>
+        <title>Discord Anuncio</title>
+        <script src="script.js"></script>
+        <script src="config.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <img src="logosr.png" alt="Logo do Meu Site">
+            <h1>Discord Anuncio</h1>
+            <h3>Anuncie no seu servidor Discord com facilidade.</h3>
+        </header>
+        <main>
+            <form id="discord">
+                <label for="web-url">
+                    Webhook URL:
+                    <input
+                        type="url"
+                        id="web-url"
+                        placeholder="https://discord.com/api/webhooks/XXXXXXXXX/XXXXXXXXX"
+                    />
+                </label>
+            
+                <label for="title">
+                    Título:
+                    <input
+                        type="text"
+                        id="title"
+                        placeholder="Digite o título do anúncio"
+                    />
+                </label>
+            
+                <label for="description">
+                    Descrição:
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="12"
+                        cols="60"
+                        placeholder="Digite a descrição do anúncio."
+                    ></textarea>
+                </label>
+            
+                <label class="checkbox-container">
+                    Incluir @everyone
+                    <input type="checkbox" id="include-everyone">
+                    <span class="checkmark"></span>
+                </label>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright 
+                &#169  
+                2024 <a class="footer_copyright--link" href="https://discord.gg/kh2KTGvaVX" target="_blank"> SR.IGAMER TV</a> Todos os Direitos Reservados.</p>
+        </footer>
+    </body>
+</html>

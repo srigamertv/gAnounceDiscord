@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Discord Anuncio",
+    "version": "1.0.0",
+    "description": "Anuncie no seu servidor Discord com facilidade.",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "script.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logosr.png",
+        "48": "logosr.png",
+        "128": "logosr.png"
+      }
+    },
+    "icons": {
+      "16": "logosr.png",
+      "48": "logosr.png",
+      "128": "logosr.png"
+    },
+    "host_permissions": [
+      "https://discord.com/*"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
+  
