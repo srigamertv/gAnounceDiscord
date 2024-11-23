@@ -1,8 +1,8 @@
 // CONFIG 
 const config = {
-    username: "SR.IGAMER TV", // NOME DO SEU BOT
+    username: "", // NOME DO SEU BOT
     avatarUrl: "", // AVATAR/IMAGEM PERFIL DO BOT
-    banner: "", // A IMAGEM QUE FICA NA PARTE DE BAIXO FAZENSO A BARREIRA
+    banner: "", // A IMAGEM QUE FICA NA PARTE DE BAIXO FAZENSO A BARRINHA
     color: 0xff0000, // Cores em hexadecimal SITE: https://www.colorhexa.com/
 };
 // PARA TRBALHAR COM HEXADECIMAL FUNCIONA DA SEGUINTE FORMA
